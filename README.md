@@ -1,19 +1,19 @@
-1. Beschreibung
+## Beschreibung
 Dieses Projekt ist ein konsolenbasiertes Python-Programm, das grundlegende Benutzerinteraktionen simuliert.
 Es ermöglicht das An- und Abmelden von Benutzern, sitzungsinterne Verwaltung von Zugangsdaten sowie das
 Bestellen einer Pizza mit Getränk.
 
-2. Funktionen
+## Funktionen
 - Login und Logout
 - Ändern von Zugangsdaten (nur während der laufenden Sitzung)
 - Simulierte Bestellfunktion
 - Beenden des Programms
 
-3. Ziel des Projekts
+## Ziel des Projekts
 Ziel war es, grundlegende Programmierkonzepte wie Bedingungen, Schleifen, Funktionen und Zustandsverwaltung mithilfe von Pythonpraktisch anzuwenden 
 und ein zusammenhängendes Programm zu entwickeln.
 
-4. Gelernte Inhalte
+## Gelernte Inhalte
 - Strukturierung eines größeren Skripts
 - Umgang mit Benutzereingaben
 - Logische Ablaufplanung
