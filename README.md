@@ -10,7 +10,7 @@ Bestellen einer Pizza mit Getränk.
 - Beenden des Programms
 
 ## Ziel des Projekts
-Ziel war es, grundlegende Programmierkonzepte wie Bedingungen, Schleifen, Funktionen und Zustandsverwaltung mithilfe von Pythonpraktisch anzuwenden 
+Ziel war es, grundlegende Programmierkonzepte wie Bedingungen, Schleifen, Funktionen und Zustandsverwaltung mithilfe von Python praktisch anzuwenden 
 und ein zusammenhängendes Programm zu entwickeln.
 
 ## Gelernte Inhalte
