@@ -5,18 +5,14 @@ users = {
     "b": "2"
 }
 
-# GLOBAL STATE VARIABLES
 enteru = None
 enterp = None
-
 
 def error():
     print("Invalid input!")
 
-
 def state(name):
     print("==", name, "==")
-
 
 def decision():
     choice = input("Choose an option: ").strip().lower()
@@ -32,7 +28,6 @@ def decision():
         return 5
     else:
         return None
-
 
 def login():
     global enteru, enterp
@@ -50,7 +45,6 @@ def login():
         else:
             print("Login successful, welcome", enteru, "!")
             return enteru, enterp
-
 
 def change_username():
     global enteru
@@ -76,7 +70,6 @@ def change_username():
         print("Username changed to", enteru, "!")
         return enteru
 
-
 def change_password():
     global enterp
     while True:
@@ -97,7 +90,6 @@ def change_password():
         print("Password changed!")
         return enterp
 
-
 def menudm(options):
     while True:
         for i in range(len(options)):
@@ -109,7 +101,6 @@ def menudm(options):
             continue
         return choicep - 1
 
-
 def drippymold():
     state("PIZZATIME")
     print("Welcome to DrippyMold, have a look at the menu!")
@@ -117,7 +108,7 @@ def drippymold():
     pizzas = ["Pizza Magherita", "Pizza Hawaii", "Pizza Salami", "Pizza Hut Classic"]
     sizes = ["Small-scale sized", "Medium-meal sized", "Family-feast sized"]
     sauces = ["Sweet-sour sauce", "Cheese sauce", "Spicy sauce", "Chef's special sauce"]
-    drinks = ["Cola", "Pineapple juice", "Pepsi", "Ice tea (peach)"]
+    drinks = ["Coke", "Pineapple juice", "Pepsi", "Ice tea (peach)"]
 
     print("Choose a pizza:")
     pizza = menudm(pizzas)
@@ -166,7 +157,6 @@ def loginchange():
         else:
             error()
 enteru, enterp = login()
-
 
 #SYSTEM
 while True:
